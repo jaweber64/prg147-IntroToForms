@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Introduction to Forms</title>
+    <script src="mowing.js"></script>
+</head>
+
+<body>
+<div class="w3-container w3-section w3-border w3-round-xlarge w3-border-green" id="outer">
+    <header class="w3-panel w3-text-indigo" id="head">
+        <h1>Introduction to Forms</h1>
+    </header>
+
+    <div class="w3-container w3-section w3-border w3-round-xlarge w3-border-green" id="mowform">
+        <h3>Mowing Cost Estimator</h3>
+
+        <!--calculate square footage of all yards, assume 10 cents per square foot -->
+        <p style="text-align: center">Please enter the values below (in feet), then click "Estimate Cost"</p>
+        <p class="phead">Front Yard</p>
+        <label for="fylength">Length</label>
+        <input type="text" id="fylength"/>&nbsp;
+        <label for="fywidth">Width</label>
+        <input type="text" id="fywidth"/>
+        <p>&nbsp;</p>
+
+        <p class="phead">Right Side Yard</p>
+        <label for="rsylength">Length</label>
+        <input type="text" id="rsylength"/>&nbsp;
+        <label for="rsywidth">Width</label>
+        <input type="text" id="rsywidth"/>
+        <p>&nbsp;</p>
+
+        <p class="phead">Left Side Yard</p>
+        <label for="lsylength">Length</label>
+        <input type="text" id="lsylength"/>&nbsp;
+        <label for="lsywidth">Width</label>
+        <input type="text" id="lsywidth"/>
+        <p>&nbsp;</p>
+
+        <p class="phead">Back Yard</p>
+        <label for="bylength">Length</label>
+        <input type="text" id="bylength"/>&nbsp;
+        <label for="bywidth">Width</label>
+        <input type="text" id="bywidth"/>
+
+        <p>&nbsp;</p>
+        <input type="button" id="estimate" value="Estimate Cost"/><br/>
+        <p>&nbsp;</p>
+        <label for="mowingcost">Calculated cost:</label>
+        <input type="text" id="mowingcost"/><br/>
+        <p>&nbsp;</p>
+    </div>
+
+</div>
+</body>
+</html>

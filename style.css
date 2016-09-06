@@ -1,0 +1,32 @@
+/* CSS Document */
+
+.w3-container{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    /*background-image: url("lgrey005.jpg");*/
+    box-sizing: border-box;
+    color: white;
+}
+
+h1, h3{
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+h3 {
+    color: white;
+}
+#mowform {
+    background-image: url("grass.jpg");
+}
+
+p.phead {
+    font-size: 1.2em;
+    font-weight: bold;
+}
